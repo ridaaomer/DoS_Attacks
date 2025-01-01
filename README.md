@@ -12,8 +12,11 @@ This project demonstrates:
 
 ## Repo Structure
 main: The main branch contains the project overview and documentation (README, etc.).
+
 syn_flood: Contains the files for the TCP SYN Flood attack.
+
 udp_flood: Contains the files for the UDP Flood attack.
+
 ping_of_death: Contains the files for the Ping of Death attack.
 
 ## Requirements
