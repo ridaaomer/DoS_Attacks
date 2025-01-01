@@ -10,23 +10,11 @@ This project demonstrates:
 2. Mitigation techniques like **SYN cookies**, **rate-limiting**, and **firewalls**.
 3. Results when firewalls are enabled or disabled.
 
-## Repository Structure
-- README.md`             | Main project overview, including details of attacks and structure.|
-| `attacks/`              | Directory containing attack-specific content.                     |
-| `attacks/syn_flood/`    | Folder for TCP SYN Flood attack files.                            |
-| ├── `syn_flood_command.md` | Command to execute the TCP SYN Flood attack.                    |
-| ├── `syn_flood_script.py`  | Python script for the TCP SYN Flood attack.                     |
-| └── `mitigation.md`        | Mitigation steps for the TCP SYN Flood attack.                  |
-| `attacks/udp_flood/`    | Folder for UDP Flood attack files.                                |
-| ├── `udp_flood_command.md` | Command to execute the UDP Flood attack.                       |
-| ├── `udp_flood_script.py`  | Python script for the UDP Flood attack.                        |
-| └── `mitigation.md`        | Mitigation steps for the UDP Flood attack.                     |
-| `attacks/ping_of_death/`| Folder for Ping of Death attack files.                            |
-| ├── `ping_of_death_command.md` | Command to execute the Ping of Death attack.               |
-| ├── `ping_of_death_script.py`  | Python script for the Ping of Death attack.                |
-| └── `mitigation.md`          | Mitigation steps for the Ping of Death attack.               |
-| `results/`              | Directory containing results of the experiments.                 |
-- `bibliography.md`: References used in this project.
+## Repo Structure
+main: The main branch contains the project overview and documentation (README, etc.).
+syn_flood: Contains the files for the TCP SYN Flood attack.
+udp_flood: Contains the files for the UDP Flood attack.
+ping_of_death: Contains the files for the Ping of Death attack.
 
 ## Requirements
 - Two virtual machines: **Kali Linux** (attacker) and **Ubuntu** (target).
