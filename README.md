@@ -11,8 +11,21 @@ This project demonstrates:
 3. Results when firewalls are enabled or disabled.
 
 ## Repository Structure
-- `attacks/`: Contains attack-specific scripts, commands, and mitigations.
-- `results/`: Observations of attacks with and without firewall protection.
+- README.md`             | Main project overview, including details of attacks and structure.|
+| `attacks/`              | Directory containing attack-specific content.                     |
+| `attacks/syn_flood/`    | Folder for TCP SYN Flood attack files.                            |
+| ├── `syn_flood_command.md` | Command to execute the TCP SYN Flood attack.                    |
+| ├── `syn_flood_script.py`  | Python script for the TCP SYN Flood attack.                     |
+| └── `mitigation.md`        | Mitigation steps for the TCP SYN Flood attack.                  |
+| `attacks/udp_flood/`    | Folder for UDP Flood attack files.                                |
+| ├── `udp_flood_command.md` | Command to execute the UDP Flood attack.                       |
+| ├── `udp_flood_script.py`  | Python script for the UDP Flood attack.                        |
+| └── `mitigation.md`        | Mitigation steps for the UDP Flood attack.                     |
+| `attacks/ping_of_death/`| Folder for Ping of Death attack files.                            |
+| ├── `ping_of_death_command.md` | Command to execute the Ping of Death attack.               |
+| ├── `ping_of_death_script.py`  | Python script for the Ping of Death attack.                |
+| └── `mitigation.md`          | Mitigation steps for the Ping of Death attack.               |
+| `results/`              | Directory containing results of the experiments.                 |
 - `bibliography.md`: References used in this project.
 
 ## Requirements
