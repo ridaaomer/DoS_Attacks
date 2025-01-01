@@ -24,9 +24,6 @@ sudo sysctl -p
 
 **Command:**
 sudo sysctl -w net.ipv4.tcp_syncookies=1
-###2. Add rate limting using iptables
-sudo iptables -A INPUT -p tcp --syn -m limit --limit 50/second --limit-burst 100 -j ACCEPT
-sudo iptables -A INPUT -p tcp --syn -j DROP
 
 
 
